@@ -1,0 +1,41 @@
+﻿Build started 05.09.2015 15:37:19.
+     1>Project "C:\Users\user\Desktop\Tutorialss\Game Ins\The C++ Programming for Game Developers (Module I)\Projects\Code Listing 5.1 - RPG\rpg.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\rpg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Map.cpp Monster.cpp Player.cpp Random.cpp game.cpp
+         game.cpp
+     1>c:\users\user\desktop\tutorialss\game ins\the c++ programming for game developers (module i)\projects\code listing 5.1 - rpg\game.cpp(12): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Random.cpp
+         Player.cpp
+         Monster.cpp
+         Map.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\rpg.exe.embed.manifest.res" Debug\rpg_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\rpg.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rpg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\rpg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\rpg.lib" /MACHINE:X86 Debug\rpg.exe.embed.manifest.res
+         Debug\Map.obj
+         Debug\Monster.obj
+         Debug\Player.obj
+         Debug\Random.obj
+         Debug\game.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\rpg.exe.embed.manifest" /manifest Debug\rpg.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\rpg.exe.embed.manifest.res" Debug\rpg_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\rpg.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rpg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\rpg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\rpg.lib" /MACHINE:X86 Debug\rpg.exe.embed.manifest.res
+         Debug\Map.obj
+         Debug\Monster.obj
+         Debug\Player.obj
+         Debug\Random.obj
+         Debug\game.obj
+         rpg.vcxproj -> C:\Users\user\Desktop\Tutorialss\Game Ins\The C++ Programming for Game Developers (Module I)\Projects\Code Listing 5.1 - RPG\Debug\rpg.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\rpg.unsuccessfulbuild".
+         Touching "Debug\rpg.lastbuildstate".
+     1>Done Building Project "C:\Users\user\Desktop\Tutorialss\Game Ins\The C++ Programming for Game Developers (Module I)\Projects\Code Listing 5.1 - RPG\rpg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.08
